@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    overflow-x: hidden;
+}
+
+
+*{
+    font-family: "Public Sans";
+}
+
+.whyChoose{
+    padding: 20px;
+}
+
+.whyChoose img{
+    display: block;
+    margin-bottom: 15px;
+}
+
+.whyChoose h3{
+
+    font-size: 20px;    
+    margin-bottom: 15px;
+    color: #414D6A;
+}
+
+.whyChoose p{
+    color: rgb(135, 135, 135);
+
+}
+
+
+.articles{
+    padding: 30px;
+}
+.articles div{
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px 0px 40px;
+    cursor: pointer;
+
+}
+
+.articles div div{
+    padding: 15px;
+    margin-top: 0px;
+}
+
+.articles img{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.articles h3{
+    font-size: 17px;
+    color: #414D6A;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.autor{
+    color: rgb(183, 183, 183);
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+
+.articles p{
+    color: rgb(183, 183, 183);
+    font-size: 14px;
+}
